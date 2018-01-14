@@ -1,0 +1,774 @@
+html, body {
+    background-color: white;
+    color:white;
+    font-family: 'Alegreya Sans', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/* Intro page */
+.pageOne {
+  background:url("http://w3.wallls.com/uploads/original/201602/21/wallls.com_73646.jpg");
+  background-size: cover;
+  height: 1000px;
+}
+
+#overlay {
+  background: rgba(0, 0, 0, 0.76);
+  height: 1000px;
+}
+
+/* Skills page */
+.pageTwo {
+  background:url("https://starkaerospace.com/wp-content/uploads/2014/06/background-world-map-1.gif");
+  background-size: cover;
+  min-height: 100%;
+  padding-bottom: 40px;
+  padding-top:40px;
+}
+
+/* Experience page */
+.pageThree {
+  background:url("http://rodmclean.com/wp-content/uploads/2016/04/Two-Climbers-Against-Background-White-Snowy-Mountains-Rod-McLean.jpg");
+  background-size: cover;
+  min-height: 100%;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+/* Portfolio page */
+.pageFour {
+  padding-top: 5px;
+  margin-top: -20px;
+  background: black;
+}
+
+/* Contact me page */
+.pageFive {
+  background:url("http://4cornerscreative.com/wp-content/uploads/2016/09/Black-Background-Images-14.jpg");
+  background-size: cover;
+  height: 350px;
+  padding-top: 20px;
+} 
+
+.bottomBtnList {
+  display: block;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+}
+
+.btn-linkedin {
+	  background: #0E76A8;
+	  border-radius: 10px;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+}
+
+.btn-quora {
+    background: #cc0000;
+    border-radius: 10px;
+    color: white; 
+    border-width: 1px;
+    border-style: solid;
+	  border-color: #084461;
+}
+.btn-github {
+    background-color: #4d0066;
+    border-radius: 10px;
+    color: white; 
+    border-width: 1px;
+    border-style: solid;
+	  border-color: #084461;
+}
+
+.btn-email {
+    background-color: #141f1f;
+    border-radius: 10px;
+    color: white; 
+    border-width: 1px;
+    border-style: solid;
+	  border-color: #084461;
+}
+
+.btn-free-code-camp {
+    background-color: #006600;
+    border-radius: 10px;
+    color: white; 
+    border-width: 1px;
+    border-style: solid;
+	  border-color: #084461;
+}
+
+h1 {
+  padding-top: 10px;
+  font-size: 10.0em;
+}
+
+h2 {
+  font-size: 3.0em;
+  color: black;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+.title {
+  padding-bottom: 10px;
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 250px;
+}
+
+/*skill category title */
+#pageTwoLabel {
+  font-size:5.0em; 
+  padding-bottom:30px;
+}
+
+/* project's images style elements */ 
+.project-img {
+  height: 500px;
+  width: 450px;
+}
+
+#projectTitle {
+  text-align: center; 
+  font-size: 2.8em;
+  cursor: pointer;
+}
+
+.projectDescription {
+  color: black; 
+  font-size: 1.5em;
+}
+
+/* self intro background configuration */
+.self-intro {
+  background: silver;
+  padding-top: 60px;
+}
+
+/* paragraph self-intro */
+#self-intro {
+  text-align: center;
+  width: 50%;
+  font-size: 2em;
+  display:block;
+  margin: 0 auto;
+  color: black;
+  padding-bottom: 60px;
+}
+
+.well {
+  min-height: 300px;
+}
+
+.eight.columns {
+	width: 65.3333333333%;
+}
+
+.progressBar {
+	margin-bottom: 26px;
+	margin-bottom: 1.66em;
+}
+.skill {
+  color: black;
+	font-size: 25px;
+	text-transform: none;
+	margin-bottom: 7px;
+	margin-bottom: .33em;
+  text-align: left;
+  position: relative;
+}
+.progressBarContainer {
+	width: 120%;
+	height: 8px;
+	background: #E1E1E1;
+	overflow: hidden;
+}
+.progressBarValue {
+	height: 8px;
+	float: left;
+	background: #e55d87; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+}
+.value-00 {
+	width: 0;
+}
+.value-10 {
+	width: 10%;
+}
+.value-20 {
+	width: 20%;
+}
+.value-30 {
+	width: 30%;
+}
+.value-40 {
+	width: 40%;
+}
+.value-50 {
+	width: 50%;
+}
+.value-60 {
+	width: 60%;
+}
+.value-70 {
+	width: 70%;
+}
+.value-80 {
+	width: 80%;
+}
+.value-90 {
+	width: 90%;
+}
+.value-100 {
+	width: 100%;
+}
+
+/* CV and contact borders */
+.border {
+  border-style: solid;
+  border-width: 3px;
+  border-color: white; 
+}
+
+/* CV and contact buttons */
+.CV {
+  top: 280px;
+  position: relative;
+  font-size: 70%;
+  width: 140px;
+  display: inline-block;
+  margin-left: 15px;
+  cursor: pointer; 
+  padding-bottom: 8px;
+}
+
+.contact {
+  top: 280px;
+  position: relative;
+  font-size: 70%;
+  width: 140px;
+  display: inline-block;
+  cursor: pointer; 
+  padding-bottom: 8px;
+}
+
+/*control border of pageTitles */
+.pageTitles {
+  width: 790px;
+  border-color: black;
+  border-width: 5px;
+  display: block;
+  margin:0 auto;
+  margin-top: 30px;
+}
+
+/* control fontsize of pageTitles  */
+#pageTitle {
+  font-size: 6.5em;
+  padding-bottom: 15px;
+}
+
+#jobPosition {
+  font-size: 4em;
+}
+
+footer {
+  background-color: black;
+  color: gray;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+}
+
+/* The Timeline - Experience Page */
+.timeline {
+  position: relative;
+  max-width: 100%;
+  list-style-type: none;
+  margin: 0 auto;
+  display: flex;
+  left: 35%;
+  padding-top: 2%;
+}
+.timeline:before {
+  background: #11abb0;
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  left: 10px;
+}
+.timeline-event {
+  position: relative;
+}
+.timeline-event:hover .timeline-event-icon {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #ed5565;
+}
+.timeline-event:hover .timeline-event-thumbnail {
+  -moz-box-shadow: inset 40em 0 0 0 #ed5565;
+  -webkit-box-shadow: inset 40em 0 0 0 #ed5565;
+  box-shadow: inset 40em 0 0 0 #ed5565;
+}
+.timeline-event #workplace{
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
+.timeline-event:hover  #workplace{
+  color: #4f83f2;
+}
+.timeline-event-copy {
+  left: 50px;
+  padding: 32px 32px 0;
+  position: relative;
+  top: -32px;
+  width: 100%;
+}
+.timeline-event-copy p:not(.timeline-event-thumbnail) {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  padding-bottom: 0px;
+}
+.timeline-event-icon {
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: black;
+  outline: 10px solid white;
+  display: block;
+  margin: 8px 8px 8px -8px;
+  position: absolute;
+  top: 0;
+  left: 32px;
+  width: 16px;
+  height: 16px;
+}
+.timeline-event-thumbnail {
+  -moz-transition: box-shadow 0.5s ease-in 0.1s;
+  -o-transition: box-shadow 0.5s ease-in 0.1s;
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
+  -moz-box-shadow: inset 0 0 0 0em #11abb0;
+  -webkit-box-shadow: inset 0 0 0 0em #11abb0;
+  box-shadow: inset 0 0 0 0em #11abb0;
+  background: none repeat scroll 0 0 #ed5565;
+  box-shadow: 0 0 0 0 #11abb0 inset;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding: 8px 15px;
+  transition: box-shadow 0.5s ease-in 0.1s;
+}
+#workplace {
+  font-size: 38px;
+}
+#jobPos {
+  font-size: 25px;
+}
+#jobDesc {
+  font-size: 20px;
+  width: 50%;
+}
+#liveDemo {
+  text-align: center;
+  font-size: 2em;
+  cursor: pointer;
+  display: inline;
+  padding-right: 10%;
+  padding-left: 20%;
+  color: #002b80;
+}
+#sourceCode {
+  text-align: center;
+  font-size: 2em;
+  cursor: pointer;
+  display: inline;
+  color: #002b80;
+}
+.view {
+  text-align: center;
+  font-size: 2em;
+  cursor: pointer;
+  color: #002b80; 
+}
+
+/* 
+background scroll effects only work in desktop versions with larger   screen sizes, preventing background images from getting distorted in smaller tablets, phones, etc.  
+*/
+@media (min-width:1400px)   {
+  .pageOne, .pageTwo, .pageThree, .pageFour, .pageFive {
+    	background-repeat: no-repeat; 
+      background-attachment: fixed;
+      background-position: center; 
+   }
+}
+
+/*mobile screens */
+@media (max-width: 800px) and (min-width: 300px) {
+  img {
+    width: 30vw; 
+    height: 30vh;
+  }
+  h1 {
+    font-size: 14vw;
+  }
+  h2 {
+    font-size: 8vw;
+  }
+  h3 {
+    font-size: 6vw;
+  }
+  p {
+    font-size: 6vw;
+  }
+  .skill {
+    font-size: 5vw;
+  }
+  ul {
+    font-size: 4.5vw;
+    width: 80%;
+  }
+  #pageTwoLabel {
+    font-size: 13vw;
+  }
+  .pageOne {
+    background-size: 100% 100%;
+    background:url("https://user-images.githubusercontent.com/26378494/28993780-9166167a-79f1-11e7-9eee-006460b30d99.jpg");
+    height: 450px;
+  }
+  .title {
+    padding-bottom: 10px;
+    width: 90%;
+    top: 100px;
+  }
+  .border {
+    width: 25%;
+    border-width: 2px;
+  }
+  /* CV and contact buttons */
+  .CV,.contact {
+    top: 110px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  /* self intro background configuration */
+  .self-intro { 
+    padding-top: 40px;
+  }
+  /* paragraph self-intro */
+  #self-intro {
+    width: 80%;
+    font-size: 5vw;
+    padding-bottom: 40px;
+  }
+  #borderText {
+    font-size: 5.5vw;
+  }
+  #jobPosition {
+    font-size: 6.5vw;
+  }
+  .pageTitles {
+    width: 85%;
+  }
+  #pageTitle {
+    padding-bottom: 15px;
+    font-size: 12vw;
+  }
+  /*skill category title */
+  #pageTwoLabel {
+    font-size: 10vw;
+    padding-bottom: 10px;
+  }
+  #footer {
+    font-size: 3vw;
+  }
+  /* Timeline Configuration */
+  .timeline {
+    left: 0;
+  }
+  /*Year*/
+  .timeline-event-thumbnail {
+    font-size: 3.5vw;
+  }
+  .timeline:before {
+    width: 2px;
+  }
+  #workplace {
+    font-size: 8vw;
+  }
+  #jobPos {
+    font-size: 6vw;
+  }
+  #jobDesc {
+    font-size: 5vw;
+    width: 100%;
+  }
+  #liveDemo {
+    padding-left: 5%;
+    padding-right: 14%;
+    font-size: 5.5vw;
+  }
+  #sourceCode {
+    font-size: 5.5vw;
+  }
+  .view {
+    font-size: 5.5vw;
+  }
+  #techUsed {
+    font-size: 5vw;
+  }
+}
+
+/*ipad screens*/
+@media (max-width: 1000px) and (min-width: 600px) {
+  img {
+    width: 30vw; 
+    height: 30vh;
+  }
+  h1 {
+    font-size: 8vw;
+  }
+  h2 {
+    font-size: 6vw;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  p {
+    font-size: 4vw;
+  }
+  .skill {
+    font-size: 3vw;
+  }
+  ul {
+    font-size: 3.5vw;
+    width: 80%;
+  }
+  #pageTwoLabel {
+    font-size: 10vw;
+  }
+  .pageOne {
+    background-size: 100% 100%;
+    background:url("https://user-images.githubusercontent.com/26378494/28993780-9166167a-79f1-11e7-9eee-006460b30d99.jpg");
+    height: 500px;
+  }
+  .title {
+    padding-bottom: 10px;
+    width: 90%;
+    top: 50px;
+  }
+  .border {
+    width: 25%;
+    border-width: 2px;
+  }
+  /* CV and contact buttons */
+  .CV,.contact {
+    top: 100px;
+    position: relative;
+  }
+  /* self intro background configuration */
+  .self-intro { 
+    padding-top: 40px;
+  }
+  /* paragraph self-intro */
+  #self-intro {
+    width: 80%;
+    font-size: 3vw;
+  }
+  #borderText {
+    font-size: 3.5vw;
+  }
+  #jobPosition {
+    font-size:4.5vw;
+  }
+  .pageTitles {
+    width: 85%;
+  }
+  #pageTitle {
+    font-size: 9vw;
+  }
+  /*skill category title */
+  #pageTwoLabel {
+    font-size: 6vw;
+    padding-bottom: 10px;
+  }
+  #footer {
+    font-size: 3vw;
+  }
+  /* Timeline Configuration */
+  .timeline {
+    left: 0;
+  }
+  /*Year*/
+  .timeline-event-thumbnail {
+    font-size: 2.5vw;
+  }
+  .timeline:before {
+    width: 2px;
+  }
+  #workplace {
+    font-size: 6vw;
+  }
+  #jobPos {
+    font-size: 4vw;
+  }
+  #jobDesc {
+    font-size: 3vw;
+    width: 100%;
+  }
+  #liveDemo {
+    padding-left: 15%;
+    padding-right: 20%;
+    font-size: 4vw;
+  }
+  #sourceCode {
+    font-size: 4vw;
+  }
+  .view {
+    font-size: 4vw;
+  }
+  #techUsed {
+    font-size: 3.5vw;
+  }
+}
+
+
+.CV-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 2em;
+  color: #222222;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+}
+
+@media all and (max-width: 500px) {
+  .CV-page {
+    padding: 0 1em;
+  }
+}
+/* if IE<=7 */
+
+.CV-page\ {
+  width: 1100px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.CV-secondaryHeading {
+  position: relative;
+  margin: 2em 0 0;
+  text-transform: uppercase;
+}
+/* Grid
+****************************************************/
+
+.CV-grid {
+  display: table;
+}
+
+.CV-grid-column {
+  display: table-cell;
+}
+
+.CV-timeline {
+  position: relative;
+  margin: 0 0 0 0.5em;
+  padding-left: 1.5em;
+  border-left: solid 1px #222222;
+}
+
+.CV-timeline:first-of-type {
+  margin-top: 1em;
+}
+
+.CV-timeline:last-of-type {
+  border-left-color: transparent;
+}
+
+.CV-timeline:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -0.5em;
+  display: block;
+  width: 1em;
+  height: 1em;
+  border: solid 1px #222222;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.CV-timeline-heading {
+  margin: 0;
+  padding-bottom: 0.5em;
+  line-height: 1em;
+  font-weight: normal;
+  -webkit-transform: translateY(-0.1em);
+  -ms-transform: translateY(-0.1em);
+  transform: translateY(-0.1em);
+}
+
+.CV-timeline-heading-title {
+  line-height: 1;
+  color: #00aef0;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.CV-timeline-heading-location {
+  font-size: 0.9em;
+}
+
+.CV-timeline-heading-duration {
+  display: block;
+  font-size: 0.8em;
+  color: #6f6f6f;
+}
+
+.CV-timeline-details {
+  display: block;
+  margin: 0;
+  padding-bottom: 2em;
+  padding: 0 0 2em 1em;
+  list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGElEQVQIW2NkYGD4D8TIgJERTQDMpVAQAGaUAQbko3DsAAAAAElFTkSuQmCC");
+}
+
+.CV-timeline-details-item {
+  margin-bottom: 0.5em;
+}
