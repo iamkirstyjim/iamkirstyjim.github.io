@@ -469,7 +469,6 @@ background scroll effects only work in desktop versions with larger   screen siz
   }
   .pageOne {
     background-size: 100% 100%;
-    background:url("https://user-images.githubusercontent.com/26378494/28993780-9166167a-79f1-11e7-9eee-006460b30d99.jpg");
     height: 450px;
   }
   .title {
@@ -585,7 +584,6 @@ background scroll effects only work in desktop versions with larger   screen siz
   }
   .pageOne {
     background-size: 100% 100%;
-    background:url("https://user-images.githubusercontent.com/26378494/28993780-9166167a-79f1-11e7-9eee-006460b30d99.jpg");
     height: 500px;
   }
   .title {
