@@ -1,17 +1,18 @@
-html, body {
-    background-color: white;
-    color:white;
-    font-family: 'Alegreya Sans', sans-serif;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    box-sizing: border-box;
+html,
+body {
+  background-color: white;
+  color: white;
+  font-family: "Alegreya Sans", sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 /* Intro page */
 .pageOne {
-  background:url("https://user-images.githubusercontent.com/35421642/34918855-debdbc86-f951-11e7-8419-ec9566bb76db.jpg");
+  background: url("https://user-images.githubusercontent.com/35421642/34918855-debdbc86-f951-11e7-8419-ec9566bb76db.jpg");
   background-size: cover;
   height: 1000px;
 }
@@ -23,16 +24,16 @@ html, body {
 
 /* Skills page */
 .pageTwo {
-  background:url("https://starkaerospace.com/wp-content/uploads/2014/06/background-world-map-1.gif");
+  background: url("https://starkaerospace.com/wp-content/uploads/2014/06/background-world-map-1.gif");
   background-size: cover;
   min-height: 100%;
   padding-bottom: 40px;
-  padding-top:40px;
+  padding-top: 40px;
 }
 
 /* Experience page */
 .pageThree {
-  background:url("https://wallpaperdata.com/wp-content/uploads/data/2018/1/6/light-gray-background-1920x1080-f-WTG30615618.jpg?w=609&h=343");
+  background: url("https://wallpaperdata.com/wp-content/uploads/data/2018/1/6/light-gray-background-1920x1080-f-WTG30615618.jpg?w=609&h=343");
   background-size: cover;
   min-height: 100%;
   padding-top: 20px;
@@ -48,11 +49,11 @@ html, body {
 
 /* Contact me page */
 .pageFive {
-  background:url("http://4cornerscreative.com/wp-content/uploads/2016/09/Black-Background-Images-14.jpg");
+  background: url("http://4cornerscreative.com/wp-content/uploads/2016/09/Black-Background-Images-14.jpg");
   background-size: cover;
   height: 350px;
   padding-top: 20px;
-} 
+}
 
 .bottomBtnList {
   display: block;
@@ -63,56 +64,56 @@ html, body {
 }
 
 .btn-linkedin {
-	  background: #0E76A8;
-	  border-radius: 10px;
-	  color: #fff;
-	  border-width: 1px;
-	  border-style: solid;
-	  border-color: #084461;
+  background: #0e76a8;
+  border-radius: 10px;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #084461;
 }
 
 .btn-quora {
-    background: #cc0000;
-    border-radius: 10px;
-    color: white; 
-    border-width: 1px;
-    border-style: solid;
-	  border-color: #084461;
+  background: #cc0000;
+  border-radius: 10px;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #084461;
 }
 .btn-github {
-    background-color: #4d0066;
-    border-radius: 10px;
-    color: white; 
-    border-width: 1px;
-    border-style: solid;
-	  border-color: #084461;
+  background-color: #4d0066;
+  border-radius: 10px;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #084461;
 }
 
 .btn-email {
-    background-color: #141f1f;
-    border-radius: 10px;
-    color: white; 
-    border-width: 1px;
-    border-style: solid;
-	  border-color: #084461;
+  background-color: #141f1f;
+  border-radius: 10px;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #084461;
 }
 
 .btn-free-code-camp {
-    background-color: #006600;
-    border-radius: 10px;
-    color: white; 
-    border-width: 1px;
-    border-style: solid;
-	  border-color: #084461;
+  background-color: #006600;
+  border-radius: 10px;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #084461;
 }
 
 h1 {
   padding-top: 10px;
-  font-size: 10.0em;
+  font-size: 10em;
 }
 
 h2 {
-  font-size: 3.0em;
+  font-size: 3em;
   color: black;
 }
 
@@ -131,24 +132,24 @@ h3 {
 
 /*skill category title */
 #pageTwoLabel {
-  font-size:5.0em; 
-  padding-bottom:30px;
+  font-size: 5em;
+  padding-bottom: 30px;
 }
 
-/* project's images style elements */ 
+/* project's images style elements */
 .project-img {
   height: 500px;
   width: 450px;
 }
 
 #projectTitle {
-  text-align: center; 
+  text-align: center;
   font-size: 2.8em;
   cursor: pointer;
 }
 
 .projectDescription {
-  color: black; 
+  color: black;
   font-size: 1.5em;
 }
 
@@ -163,7 +164,7 @@ h3 {
   text-align: center;
   width: 50%;
   font-size: 2em;
-  display:block;
+  display: block;
   margin: 0 auto;
   color: black;
   padding-bottom: 60px;
@@ -174,12 +175,12 @@ h3 {
 }
 
 .eight.columns {
-	width: 65.3333333333%;
+  width: 65.3333333333%;
 }
 
 .skill {
   background-color: black;
-  opacity: .8;
+  opacity: 0.8;
   padding: 15px;
   margin: 5px;
   border-radius: 15px;
@@ -191,7 +192,7 @@ h3 {
 .border {
   border-style: solid;
   border-width: 3px;
-  border-color: white; 
+  border-color: white;
 }
 
 /* CV and contact buttons */
@@ -202,7 +203,7 @@ h3 {
   width: 140px;
   display: inline-block;
   margin-left: 15px;
-  cursor: pointer; 
+  cursor: pointer;
   padding-bottom: 8px;
 }
 
@@ -212,7 +213,7 @@ h3 {
   font-size: 70%;
   width: 140px;
   display: inline-block;
-  cursor: pointer; 
+  cursor: pointer;
   padding-bottom: 8px;
 }
 
@@ -222,7 +223,7 @@ h3 {
   border-color: black;
   border-width: 5px;
   display: block;
-  margin:0 auto;
+  margin: 0 auto;
   margin-top: 30px;
 }
 
@@ -260,7 +261,7 @@ footer {
 }
 .timeline:before {
   background: #11abb0;
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   width: 5px;
@@ -282,14 +283,14 @@ footer {
   -webkit-box-shadow: inset 40em 0 0 0 #ed5565;
   box-shadow: inset 40em 0 0 0 #ed5565;
 }
-.timeline-event #workplace{
-  transition: all .3s;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -o-transition: all .3s;
+.timeline-event #workplace {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
 }
-.timeline-event:hover  #workplace{
+.timeline-event:hover #workplace {
   color: #4f83f2;
 }
 .timeline-event-copy {
@@ -374,24 +375,28 @@ footer {
   text-align: center;
   font-size: 2em;
   cursor: pointer;
-  color: #002b80; 
+  color: #002b80;
 }
 
 /* 
 background scroll effects only work in desktop versions with larger   screen sizes, preventing background images from getting distorted in smaller tablets, phones, etc.  
 */
-@media (min-width:1400px)   {
-  .pageOne, .pageTwo, .pageThree, .pageFour, .pageFive {
-    	background-repeat: no-repeat; 
-      background-attachment: fixed;
-      background-position: center; 
-   }
+@media (min-width: 1400px) {
+  .pageOne,
+  .pageTwo,
+  .pageThree,
+  .pageFour,
+  .pageFive {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
 }
 
 /*mobile screens */
 @media (max-width: 800px) and (min-width: 300px) {
   img {
-    width: 30vw; 
+    width: 30vw;
     height: 30vh;
   }
   h1 {
@@ -430,13 +435,14 @@ background scroll effects only work in desktop versions with larger   screen siz
     border-width: 2px;
   }
   /* CV and contact buttons */
-  .CV,.contact {
+  .CV,
+  .contact {
     top: 110px;
     position: relative;
     padding-bottom: 10px;
   }
   /* self intro background configuration */
-  .self-intro { 
+  .self-intro {
     padding-top: 40px;
   }
   /* paragraph self-intro */
@@ -506,7 +512,7 @@ background scroll effects only work in desktop versions with larger   screen siz
 /*ipad screens*/
 @media (max-width: 1000px) and (min-width: 600px) {
   img {
-    width: 30vw; 
+    width: 30vw;
     height: 30vh;
   }
   h1 {
@@ -545,12 +551,13 @@ background scroll effects only work in desktop versions with larger   screen siz
     border-width: 2px;
   }
   /* CV and contact buttons */
-  .CV,.contact {
+  .CV,
+  .contact {
     top: 100px;
     position: relative;
   }
   /* self intro background configuration */
-  .self-intro { 
+  .self-intro {
     padding-top: 40px;
   }
   /* paragraph self-intro */
@@ -562,7 +569,7 @@ background scroll effects only work in desktop versions with larger   screen siz
     font-size: 3.5vw;
   }
   #jobPosition {
-    font-size:4.5vw;
+    font-size: 4.5vw;
   }
   .pageTitles {
     width: 85%;
@@ -615,14 +622,13 @@ background scroll effects only work in desktop versions with larger   screen siz
   }
 }
 
-
 .CV-page {
   max-width: 700px;
   margin: 0 auto;
   padding: 0 2em;
   color: #222222;
   font-size: 1em;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 @media all and (max-width: 500px) {
