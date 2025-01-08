@@ -397,6 +397,9 @@ background scroll effects only work in desktop versions with larger   screen siz
 
 /*mobile screens */
 @media (max-width: 800px) and (min-width: 300px) {
+  #overlay {
+    height: 500px;
+  }
   img {
     width: 30vw;
     height: 30vh;
@@ -513,6 +516,9 @@ background scroll effects only work in desktop versions with larger   screen siz
 
 /*ipad screens*/
 @media (max-width: 1000px) and (min-width: 600px) {
+  #overlay {
+    height: 500px;
+  }
   img {
     width: 30vw;
     height: 30vh;
