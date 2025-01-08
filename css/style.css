@@ -2,8 +2,10 @@ html,
 body {
   background-color: white;
   color: white;
-  font-family: "Alegreya Sans", sans-serif;
-  width: 100%;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -400,26 +402,26 @@ background scroll effects only work in desktop versions with larger   screen siz
     height: 30vh;
   }
   h1 {
-    font-size: 14vw;
+    font-size: 13vw;
   }
   h2 {
-    font-size: 8vw;
+    font-size: 7vw;
   }
   h3 {
-    font-size: 6vw;
-  }
-  p {
-    font-size: 6vw;
-  }
-  .skill {
     font-size: 5vw;
   }
+  p {
+    font-size: 5vw;
+  }
+  .skill {
+    font-size: 4vw;
+  }
   ul {
-    font-size: 4.5vw;
+    font-size: 3.5vw;
     width: 80%;
   }
   #pageTwoLabel {
-    font-size: 13vw;
+    font-size: 12vw;
   }
   .pageOne {
     background-size: 100% 100%;
@@ -448,14 +450,14 @@ background scroll effects only work in desktop versions with larger   screen siz
   /* paragraph self-intro */
   #self-intro {
     width: 80%;
-    font-size: 5vw;
+    font-size: 4vw;
     padding-bottom: 40px;
   }
   #borderText {
-    font-size: 5.5vw;
+    font-size: 4.5vw;
   }
   #jobPosition {
-    font-size: 6.5vw;
+    font-size: 4.5vw;
   }
   .pageTitles {
     width: 85%;
@@ -466,7 +468,7 @@ background scroll effects only work in desktop versions with larger   screen siz
   }
   /*skill category title */
   #pageTwoLabel {
-    font-size: 10vw;
+    font-size: 9vw;
     padding-bottom: 10px;
   }
   #footer {
@@ -484,13 +486,13 @@ background scroll effects only work in desktop versions with larger   screen siz
     width: 2px;
   }
   #workplace {
-    font-size: 8vw;
+    font-size: 7vw;
   }
   #jobPos {
-    font-size: 6vw;
+    font-size: 5vw;
   }
   #jobDesc {
-    font-size: 5vw;
+    font-size: 4vw;
     width: 100%;
   }
   #liveDemo {
@@ -516,26 +518,26 @@ background scroll effects only work in desktop versions with larger   screen siz
     height: 30vh;
   }
   h1 {
-    font-size: 8vw;
+    font-size: 7vw;
   }
   h2 {
-    font-size: 6vw;
+    font-size: 5vw;
   }
   h3 {
-    font-size: 4vw;
-  }
-  p {
-    font-size: 4vw;
-  }
-  .skill {
     font-size: 3vw;
   }
+  p {
+    font-size: 3vw;
+  }
+  .skill {
+    font-size: 2vw;
+  }
   ul {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     width: 80%;
   }
   #pageTwoLabel {
-    font-size: 10vw;
+    font-size: 9vw;
   }
   .pageOne {
     background-size: 100% 100%;
@@ -563,27 +565,27 @@ background scroll effects only work in desktop versions with larger   screen siz
   /* paragraph self-intro */
   #self-intro {
     width: 80%;
-    font-size: 3vw;
+    font-size: 2vw;
   }
   #borderText {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
   }
   #jobPosition {
-    font-size: 4.5vw;
+    font-size: 3.5vw;
   }
   .pageTitles {
     width: 85%;
   }
   #pageTitle {
-    font-size: 9vw;
+    font-size: 8vw;
   }
   /*skill category title */
   #pageTwoLabel {
-    font-size: 6vw;
+    font-size: 5vw;
     padding-bottom: 10px;
   }
   #footer {
-    font-size: 3vw;
+    font-size: 2vw;
   }
   /* Timeline Configuration */
   .timeline {
@@ -597,28 +599,28 @@ background scroll effects only work in desktop versions with larger   screen siz
     width: 2px;
   }
   #workplace {
-    font-size: 6vw;
+    font-size: 5vw;
   }
   #jobPos {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   #jobDesc {
-    font-size: 3vw;
+    font-size: 2vw;
     width: 100%;
   }
   #liveDemo {
     padding-left: 15%;
     padding-right: 20%;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   #sourceCode {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .view {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   #techUsed {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
   }
 }
 
@@ -702,7 +704,7 @@ background scroll effects only work in desktop versions with larger   screen siz
   color: #00aef0;
   font-style: italic;
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.85em;
 }
 
 .CV-timeline-heading-location {
